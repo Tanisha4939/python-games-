@@ -20,10 +20,16 @@ def play_stone_paper_scissors():
         
         if player == computer:
             print("🤝 It's a tie!")
-        elif (player == "stone" and computer == "scissors") or \
-             (player == "paper" and computer == "stone") or \
-             (player == "scissors" and computer == "paper"):
+            
+        elif (player == "stone" and computer == "scissors"):
             print("🎉 You win this round!")
+
+        elif (player == "paper" and computer == "stone"):
+            print("🎉 You win this round!")
+
+        elif (player == "scissors" and computer == "paper"):
+            print("🎉 You win this round!")
+
         else:
             print("🤖 Computer wins this round!")
 
