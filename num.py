@@ -31,5 +31,4 @@ def play_dice_vs_computer():
         else:
             print(f"🤝 It's a tie! Both of you have the number {player_choice}.")
             
-
 play_dice_vs_computer()
